@@ -1,0 +1,51 @@
+.post{
+  display: flex;
+  width: 500px;
+}
+.user-profile{
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+.user-profile>img{
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50%);
+}
+.body{
+  display: flex;
+  flex-direction: column;
+}
+.user{
+  display: inline-flex;
+  align-items: center;
+}
+.fullname{
+  font-weight: bold;
+}
+.username, .time{
+  color: gray;
+  margin-left: 5px;
+}
+.dot{
+  display: inline-flex;
+  border-radius: 50%;
+  background-color: gray;
+  height: 3px;
+  width: 3px;
+  margin-left: 5px;
+}
+.content{
+  font-weight: 350;
+  padding: 4px 0;
+}
+
+/* Attachments */
+.attachments{
+  width: 100%;
+  height: 300px;
+  padding: 5px 0;
+}
+.attachments-img-1{
+  height: 100%;
+}
